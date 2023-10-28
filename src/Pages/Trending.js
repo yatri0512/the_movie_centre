@@ -60,7 +60,7 @@ const Trending = () => {
                         <div>
                            <h3>{title || name}</h3>
                            <div style={{ display: 'flex' }}>
-                              <div style={{ float: "left", marginRight: "45%" }}>{first_air_date || release_date}</div>
+                              <div style={{ float: "left", marginRight: "42%" }}>{first_air_date || release_date}</div>
                               <div
                                  style={{
                                     float: "right", padding: "5px",
@@ -95,7 +95,7 @@ const Trending = () => {
                         <div>
                            <h3>{title || name}</h3>
                            <div style={{ display: 'flex' }}>
-                              <div style={{ float: "left", marginRight: "45%" }}>{first_air_date || release_date}</div>
+                              <div style={{ float: "left", marginRight: "42%" }}>{first_air_date || release_date}</div>
                               <div
                                  style={{
                                     float: "right", padding: "5px",
