@@ -1,0 +1,83 @@
+.head-container{
+    width: 100%;
+    text-align: center;
+    margin-top: 5px;
+}
+.head-container span{
+    font-size: xx-large;
+    color: orange;
+}
+#card{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    margin-left: 30px;
+    margin-top: 30px;
+    margin-bottom: 10%;
+}
+.trending-card{
+    text-align: center;
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #282c34;
+    border-radius: 30px;
+}
+.trending-card img{
+    height: 200px;
+    width: 90%;
+    border-radius: 30px;
+}
+.btn{
+    background-color: rgb(71, 71, 71);
+    color: white;
+    border: none;
+    border-radius: 0px;
+    margin-top: 15px;
+    padding: 10px;
+    width: fit-content;
+    cursor: pointer;
+}
+.active1{
+    background-color: orangered;
+}
+.searching{
+    background-color: rgb(61, 57, 57);
+    font-size: large;
+    padding: 5px;
+    margin-right: 10px;
+    width: 350px;
+    color: lightgrey;
+}
+.overview{
+    display: none;
+}
+.trending-card :hover + .overview{
+    display: block;
+    z-index: 9;
+}
+.trending-card .movie-card:hover{
+    position: absolute;
+    opacity:0.07;
+    width: 90%;
+}
+@media only screen and (max-width: 500px) {
+    #card{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        margin-left: 10px;
+        margin-top: 30px;
+        margin-bottom: 20%;
+    }
+    .searching{
+        font-size: large;
+        padding: 5px;
+        margin-right: 10px;
+        width: 200px;
+        color: lightgrey;
+    }    
+    .trending-card img{
+        height: 150px;
+        width: 70%;
+        border-radius: 30px;
+    }
+}

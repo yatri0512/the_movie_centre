@@ -1,0 +1,13 @@
+.Controls{
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    position: fixed;
+    text-align: center;
+    background-color: #282c34;
+    color: white;
+}
+.buttons{
+    padding-bottom: 10px;
+    border-left: 1px solid rgb(95, 94, 94);
+}
