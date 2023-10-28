@@ -52,7 +52,7 @@ const Movies = () => {
                 <div>
                   <h3>{title || name}</h3>
                   <div style={{display: 'flex'}}>
-                    <div style={{float: "left", marginRight: "45%"}}>{first_air_date || release_date}</div>
+                    <div style={{float: "left", marginRight: "42%"}}>{first_air_date || release_date}</div>
                     <div 
                       style={{float: "right", padding: "5px", 
                       border: "1px solid rgb(91,91,91)", backgroundColor: "rgb(71, 71, 71)"}}>
